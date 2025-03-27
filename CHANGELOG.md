@@ -2,62 +2,61 @@
 
 * **logos** Update Firefox Monitor -> Mozilla Monitor (#95)
 * **logos** Update Relay Logo to purple (#87)
-* **icons** Fix highlight icon crop #96 
+* **icons** Fix highlight icon crop (#96)
 
-## migration tips
+## Migration tips
 
 * The Monitor logos remain in the Firefox folder, no action is necessary for this update
 * If you have been over-riding the Relay logos locally to get the purple one on light backgrounds, you can remove that code
 
 # 5.3.0
 
-**icons** Add social icon for X (formerly Twitter) (#90)
+* **icons** Add social icon for X (formerly Twitter) (#90)
 
 # 5.2.0
 
-**icons** Add social icon for Mastodon
-**icons** Add social icons for LinkedIn, TikTok, Spotify (#84)
+* **icons** Add social icon for Mastodon
+* **icons** Add social icons for LinkedIn, TikTok, Spotify (#84)
 
 # 5.1.0
 
-**logos** Add Firefox Relay logos (#79)
+* **logos** Add Firefox Relay logos (#79)
 
 # 5.0.0
 
-* **logos** Update Firefox Focus logo [#73]
-* **logos** Add wordmark assets for Firefox Klar (#60)
 * **logos** (breaking) Remove PNG assets for logos and wordmarks (#65)
 * **logos** (breaking) Remove Firefox Send assets
+* **logos** Update Firefox Focus logo (#73)
+* **logos** Add wordmark assets for Firefox Klar (#60)
 * **icons** Re-rendered and optimized social icons
 
-## migration tips
+## Migration tips
 
-* The Firefox Send logo and wordmark assets have been removed because that product has been discontinued. Update any references to those assets.
-* All PNG logo and wordmark assets have been removed in favor of SVG. Update any references to the PNG assets. If you require a PNG logo for some reason (e.g. for older browsers that don't support SVG) you'll need to find an alternative source.
-
+* The Firefox Send logo and wordmark assets have been removed because that product has been discontinued. Remove any references to those assets, or host your own if you need to display them for historical reasons.
+* All PNG logo and wordmark assets have been removed in favor of SVG. Update any references to the PNG assets. If you require a PNG logo for some reason (e.g. for older browsers that don't support SVG) you'll need to include your own copy.
 
 # 4.2.0
 
-* **logos** Renamed and added Pocket wordmark SVGs to fully support dark theme and monochromatic brand guidelines (Fix #61)
+* **logos** Renamed and added Pocket wordmark SVGs to fully support dark theme and monochromatic brand guidelines (#61)
 * **logos** Re-rendered Mozilla VPN logo and wordmark SVGs
 * **logos** Re-rendered Firefox Focus logo and wordmark SVGs
 
 # 4.1.0
 
-* **logos** Remove transparent whitespace to right of Pocket wordmark PNGs (Fix #59)
+* **logos** Remove transparent whitespace to right of Pocket wordmark PNGs (#59)
 
-## migration tips
+## Migration tips
 
 * The Pocket wordmark PNGs have changed dimensions. If you've specified a size where this wordmark appears, update to the new width.
 
 # 4.0.0
 
 * **logos** Add VPN assets (#49)
-* **logos** Add Focus assets (Fix #51)
-* **logos** (breaking) Add full size options to Mozilla assets (Fix #54)
-* **logos** (breaking) Update Pocket logo sizes (Fix #55)
+* **logos** Add Focus assets (#51)
+* **logos** (breaking) Add full size options to Mozilla assets (#54)
+* **logos** (breaking) Update Pocket logo sizes (#55)
 
-## migration tips
+## Migration tips
 
 * Updated Mozilla file names
     * black.svg -> logo-word-hor.svg (the dimensions has increased, check you have coded a width where used)
@@ -93,13 +92,13 @@
 * **logos** Update `/icons/social/firefox` icons to new browser design
 * **other** Add Open Graph images for products
 
-## migration tips
+## Migration tips
 
 * If you were using the old browser logos files you can swap them with the `lg` versions of the new ones, they are the same dimensions
 * If you need the focus logos, you will need to host them locally
 * If you were using the social icons in the root folder you can update to use the new folder location, there have not been any name changes.
 
-# 2.1.1.
+# 2.1.1
 
 * **icons** Add social media icons back
 * **icons** Add white versions of some UI assets
@@ -114,13 +113,9 @@
 
 # 1.0.1
 
-#Features
-
 * **icons** Added header navigation icons
 
 # 1.0.0
-
-## Features
 
 * **icons** Added new menu, close and expand icons (black & white variants).
 * **icons** Removed old close icon.
@@ -128,31 +123,24 @@
 
 # 0.0.5
 
-## Features
-
 * **logos** Added Pocket logo
 * **icons** Added menu panel arrow icon
 * **backgrounds** Added hero curve SVG mask
 
 # 0.0.4
 
-## Features
-
 * **logos** Added firefox logos (release, beta, dev edition, nightly, focus) (#2)
 
 # 0.0.3
+
 * **icons** Remove png support for icons
 
 # 0.0.2
-
-## Features
 
 * **logos** Added mozilla logo
 * **icons/ui** Added UI icons (audio, video, close, kebab)
 * **icons/social** Added mozilla and protocol icons
 
 # 0.0.1
-
-## Features
 
 * **icons** Added support for social icons (facebook, firefox, github, instagram, pocket, twitter, and youtube)
