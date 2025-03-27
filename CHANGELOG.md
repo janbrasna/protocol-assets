@@ -1,8 +1,8 @@
 # 5.4.0
 
-* **logos** Update Firefox Monitor -> Mozilla Monitor (#95)
-* **logos** Update Relay Logo to purple (#87)
-* **icons** Fix highlight icon crop (#96)
+* **logos:** Update Firefox Monitor -> Mozilla Monitor (#95)
+* **logos:** Update Relay Logo to purple (#87)
+* **icons:** Fix highlight icon crop (#96)
 
 ## Migration tips
 
@@ -11,24 +11,24 @@
 
 # 5.3.0
 
-* **icons** Add social icon for X (formerly Twitter) (#90)
+* **icons:** Add social icon for X (formerly Twitter) (#90)
 
 # 5.2.0
 
-* **icons** Add social icon for Mastodon
-* **icons** Add social icons for LinkedIn, TikTok, Spotify (#84)
+* **icons:** Add social icon for Mastodon
+* **icons:** Add social icons for LinkedIn, TikTok, Spotify (#84)
 
 # 5.1.0
 
-* **logos** Add Firefox Relay logos (#79)
+* **logos:** Add Firefox Relay logos (#79)
 
 # 5.0.0
 
-* **logos** (breaking) Remove PNG assets for logos and wordmarks (#65)
-* **logos** (breaking) Remove Firefox Send assets
-* **logos** Update Firefox Focus logo (#73)
-* **logos** Add wordmark assets for Firefox Klar (#60)
-* **icons** Re-rendered and optimized social icons
+* **logos:** (breaking) Remove PNG assets for logos and wordmarks (#65)
+* **logos:** (breaking) Remove Firefox Send assets
+* **logos:** Update Firefox Focus logo (#73)
+* **logos:** Add wordmark assets for Firefox Klar (#60)
+* **icons:** Re-rendered and optimized social icons
 
 ## Migration tips
 
@@ -37,13 +37,13 @@
 
 # 4.2.0
 
-* **logos** Renamed and added Pocket wordmark SVGs to fully support dark theme and monochromatic brand guidelines (#61)
-* **logos** Re-rendered Mozilla VPN logo and wordmark SVGs
-* **logos** Re-rendered Firefox Focus logo and wordmark SVGs
+* **logos:** Renamed and added Pocket wordmark SVGs to fully support dark theme and monochromatic brand guidelines (#61)
+* **logos:** Re-rendered Mozilla VPN logo and wordmark SVGs
+* **logos:** Re-rendered Firefox Focus logo and wordmark SVGs
 
 # 4.1.0
 
-* **logos** Remove transparent whitespace to right of Pocket wordmark PNGs (#59)
+* **logos:** Remove transparent whitespace to right of Pocket wordmark PNGs (#59)
 
 ## Migration tips
 
@@ -51,10 +51,10 @@
 
 # 4.0.0
 
-* **logos** Add VPN assets (#49)
-* **logos** Add Focus assets (#51)
-* **logos** (breaking) Add full size options to Mozilla assets (#54)
-* **logos** (breaking) Update Pocket logo sizes (#55)
+* **logos:** Add VPN assets (#49)
+* **logos:** Add Focus assets (#51)
+* **logos:** (breaking) Add full size options to Mozilla assets (#54)
+* **logos:** (breaking) Update Pocket logo sizes (#55)
 
 ## Migration tips
 
@@ -75,22 +75,22 @@
 
 # 3.0.2
 
-* **icons** Add a set of brand icons/spot illustration in a variety of colors (#47)
+* **icons:** Add a set of brand icons/spot illustration in a variety of colors (#47)
 
 # 3.0.1
 
-* **other** Add zap SVGs (#44)
-* **logos** Add Monitor brand open graph image (#42)
-* **logos** Add master brand open graph image (#39)
+* **other:** Add zap SVGs (#44)
+* **logos:** Add Monitor brand open graph image (#42)
+* **logos:** Add master brand open graph image (#39)
 
 # 3.0.0
 
-* **logos** Move to standard sized logos for Firefox browsers and products
-* **logos** Remove Focus logos
-* **logos** Remove duplicate `social/icons` folder in favour of `/icons/social`
-* **logos** Add Pocket logo+wordmarks as SVGs
-* **logos** Update `/icons/social/firefox` icons to new browser design
-* **other** Add Open Graph images for products
+* **logos:** Move to standard sized logos for Firefox browsers and products
+* **logos:** Remove Focus logos
+* **logos:** Remove duplicate `social/icons` folder in favour of `/icons/social`
+* **logos:** Add Pocket logo+wordmarks as SVGs
+* **logos:** Update `/icons/social/firefox` icons to new browser design
+* **other:** Add Open Graph images for products
 
 ## Migration tips
 
@@ -100,47 +100,47 @@
 
 # 2.1.1
 
-* **icons** Add social media icons back
-* **icons** Add white versions of some UI assets
+* **icons:** Add social media icons back
+* **icons:** Add white versions of some UI assets
 
 # 2.1.0
 
-* **logos** Update Firefox Beta, Developer and Nightly logos (#30)
+* **logos:** Update Firefox Beta, Developer and Nightly logos (#30)
 
 # 2.0.0
 
-* **icons** Replaced existing icons with new icon style
+* **icons:** Replaced existing icons with new icon style
 
 # 1.0.1
 
-* **icons** Added header navigation icons
+* **icons:** Added header navigation icons
 
 # 1.0.0
 
-* **icons** Added new menu, close and expand icons (black & white variants).
-* **icons** Removed old close icon.
-* **icons** Removed old kebab menu icon.
+* **icons:** Added new menu, close and expand icons (black & white variants).
+* **icons:** Removed old close icon.
+* **icons:** Removed old kebab menu icon.
 
 # 0.0.5
 
-* **logos** Added Pocket logo
-* **icons** Added menu panel arrow icon
-* **backgrounds** Added hero curve SVG mask
+* **logos:** Added Pocket logo
+* **icons:** Added menu panel arrow icon
+* **backgrounds:** Added hero curve SVG mask
 
 # 0.0.4
 
-* **logos** Added firefox logos (release, beta, dev edition, nightly, focus) (#2)
+* **logos:** Added firefox logos (release, beta, dev edition, nightly, focus) (#2)
 
 # 0.0.3
 
-* **icons** Remove png support for icons
+* **icons:** Remove png support for icons
 
 # 0.0.2
 
-* **logos** Added mozilla logo
-* **icons/ui** Added UI icons (audio, video, close, kebab)
-* **icons/social** Added mozilla and protocol icons
+* **logos:** Added mozilla logo
+* **icons/ui:** Added UI icons (audio, video, close, kebab)
+* **icons/social:** Added mozilla and protocol icons
 
 # 0.0.1
 
-* **icons** Added support for social icons (facebook, firefox, github, instagram, pocket, twitter, and youtube)
+* **icons:** Added support for social icons (facebook, firefox, github, instagram, pocket, twitter, and youtube)
