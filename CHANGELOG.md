@@ -1,4 +1,9 @@
 * **logos:** Removes inline style attribute for simple fill to avoid content security issues if used inline (#115)
+* **logos:** Fixes browser logo alignment between channels and provides current versions of brand assets (#122)
+
+## Migration tips
+
+Intrinsic sizes were inconsistent between channels before. Now all are the same 512px dimension, replacing the older 80px and 300px assets. If you were relying on SVG width and height defaults, you may need to verify your sizing or style with CSS.
 
 # 7.0.2
 
@@ -10,7 +15,7 @@
 
 ## Migration tips
 
-New and updated icons have intrinsic width of 16x16 instead of 24x24. If you were relying on SVG width and height attributes for sizing, you may need to update by CSS sizing.
+New and updated icons have intrinsic width of 16 instead of 24x24. If you were relying on SVG width and height attributes for sizing, you may need to update by CSS sizing.
 
 Updated icons are still square but do not have padding around the icon. This is particularly noticeable with menu and arrows. If you were relying on the icon for spacing, you may need to update to re-add that spacing through CSS.
 
