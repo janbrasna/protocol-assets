@@ -2,16 +2,15 @@
 
 [![Current npm package version.](https://img.shields.io/npm/v/@mozilla-protocol/assets)](https://www.npmjs.com/package/@mozilla-protocol/assets)
 
-This repository contains a set of reusable assets for Mozilla's websites. These assets are available as both svg and png files. Assets include logos and icons.
-
-Protocol icons are a derivative of [Feather icons](https://feathericons.com/), used under the [MIT License](https://github.com/colebemis/feather/blob/master/LICENSE)
-
+This repository contains a set of reusable assets for Mozilla's websites. These assets include logos, icons, open graph images and "zaps" (shapes used within branded headings).
 
 What's included
------------------
+---------------
 
 Icons
 =====
+
+Protocol icons are a derivative of [Feather icons](https://feathericons.com/), used under the [MIT License](https://github.com/colebemis/feather/blob/master/LICENSE)
 
 For the most part icons are black SVGs. There are a few white variations for historical reasons. These have the sufix `-white` in the file name.
 
@@ -20,7 +19,7 @@ There is also a set of colorful "brand" icons in SVG format, in four different c
 Logos
 =====
 
-SVG logo and logo + wordmark files are included for a number of Mozilla and Firefox products. Sizing varies; you should declare the height and width you want when you use them.
+SVG logo and logo+wordmark files are included for a number of Mozilla and Firefox products. Sizing varies; you should declare the height and width you want when you use them.
 
 ### Variations
 
